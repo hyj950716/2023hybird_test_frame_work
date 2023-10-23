@@ -1,0 +1,92 @@
+2023-05-21 16:23:06 Log.py[line:26] INFO 测试步骤：关键字("定位表达式","操作值")
+2023-05-21 16:23:06 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+NameError: name '关键字' is not defined
+
+2023-05-21 16:23:06 Log.py[line:26] INFO 测试步骤：open_browser("-","chrome")
+2023-05-21 16:23:06 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 47, in execute_test_steps
+    driver = eval(command)
+  File "<string>", line 1, in <module>
+TypeError: open_browser() takes 1 positional argument but 2 were given
+
+2023-05-21 16:23:07 Log.py[line:26] INFO 测试步骤：visit("https://www.126.com","-")
+2023-05-21 16:23:07 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+TypeError: visit() takes 1 positional argument but 2 were given
+
+2023-05-21 16:23:08 Log.py[line:26] INFO 测试步骤：switch_in_frame("//div[@id='loginDiv']/iframe","-")
+2023-05-21 16:23:08 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+TypeError: switch_in_frame() takes 1 positional argument but 2 were given
+
+2023-05-21 16:23:08 Log.py[line:26] INFO 测试步骤：input("//input[@tabindex='1']","hxf950716")
+2023-05-21 16:23:08 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\study\demo\2023KeyWordTestFrameWorkProj\KeyWord\KeyWord.py", line 48, in input
+    input_box = driver.find_element(By.XPATH,element_xpath_exp)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@tabindex='1']"}
+  (Session info: chrome=111.0.5563.65)
+
+
+2023-05-21 16:23:09 Log.py[line:26] INFO 测试步骤：input("//*[@tabindex=2]","Hxf950716!")
+2023-05-21 16:23:09 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\study\demo\2023KeyWordTestFrameWorkProj\KeyWord\KeyWord.py", line 48, in input
+    input_box = driver.find_element(By.XPATH,element_xpath_exp)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@tabindex=2]"}
+  (Session info: chrome=111.0.5563.65)
+
+
+2023-05-21 16:23:10 Log.py[line:26] INFO 测试步骤：click("//a[@id='dologin']","-")
+2023-05-21 16:23:10 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+TypeError: click() takes 1 positional argument but 2 were given
+
+2023-05-21 16:23:10 Log.py[line:26] INFO 测试步骤：sleep("-","7")
+2023-05-21 16:23:10 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+TypeError: sleep() takes 1 positional argument but 2 were given
+
+2023-05-21 16:23:11 Log.py[line:26] INFO 测试步骤：assert_word("-","通讯录")
+2023-05-21 16:23:11 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023KeyWordTestFrameWorkProj/Script/Main.py", line 49, in execute_test_steps
+    eval(command)
+  File "<string>", line 1, in <module>
+TypeError: assert_word() takes 1 positional argument but 2 were given
+
+2023-05-28 11:38:29 Log.py[line:26] INFO 测试步骤：assert_word("通讯录")
+2023-05-28 11:38:29 Log.py[line:26] INFO 异常信息：Traceback (most recent call last):
+  File "E:/study/demo/2023hybird_test_frame_work/Script/Main.py", line 141, in execute_test_steps_by_a_test_data_dict
+    eval(command)
+  File "<string>", line 1, in <module>
+  File "E:\study\demo\2023hybird_test_frame_work\KeyWord\KeyWord.py", line 67, in assert_word
+    assert word in driver.page_source
+AssertionError
+
